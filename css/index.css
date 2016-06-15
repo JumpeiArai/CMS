@@ -1,0 +1,28 @@
+header .brand-logo{
+    margin-left: 20px;
+}
+body {
+    background-color: #BEDAF1;
+}
+
+nav {
+    background-color: #5f96c4;
+}
+
+nav i.material-icons {
+    font-size:1.5rem;
+    display:inline;
+}
+
+li {
+    list-style-type: none;
+}
+
+portfolio {
+     box-sizing: border-box;
+     width:100%;
+}
+
+.container portfolio .row{
+    margin : auto;
+}

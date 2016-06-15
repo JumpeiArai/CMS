@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>myMemoPad</title>
+<script src="./js/jquery-2.1.3.min.js"></script>
+<script src="./js/memo.js"></script>
+<link rel="stylesheet" href="./css/sample.css">
+</head>
+<body>
+<div id="sidebar"><ul id="sidelist"></ul></div>
+<div id="wrapper">
+  <header>
+    <h1>MemoPad</h1>
+   <div id="cartain"><span>&lt;&lt;</span></div>
+  </header>
+  <div id="title">
+   <span>TITLE</span>
+    <input type="text" id="titletext">
+  </div>
+  <main style="display:none;">
+    <textarea id="text_area"></textarea>
+    <ul>
+      <li id="save">Save</li>
+      <li id="clear">Clear</li>
+    </ul>
+  </main>
+
+  <footer><small>G's</small></footer>
+</div>
+
+</body>
+
+</html>

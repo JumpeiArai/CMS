@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang=ja>
+<head>
+    <meta charset="UTF-8">
+    <title>MY CMS</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--riot.js-->
+    <script type="text/javascript" src="js/riot+compiler.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link type="text/css" rel="stylesheet" href="css/index.css"/>
+    <!--Tags for riot.js-->
+    <script type="riot/tag" src="./tags/Blog.tag"></script>
+    <script type="riot/tag" src="./tags/GlobalNav.tag"></script>
+    <script type="riot/tag" src="./tags/Profile.tag"></script>
+    <script type="riot/tag" src="./tags/Portfolio.tag"></script>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+    <GlobalNav></GlobalNav>
+</header>
+
+<main id="main">
+    <Blog></Blog>
+    <Profile></Profile>
+    <Portfolio></Portfolio>
+</main>
+
+</div>
+
+<script>
+    riot.mount('GlobalNav');
+    riot.mount('Profile');
+</script>
+</body>
+</html>

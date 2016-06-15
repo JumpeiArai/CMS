@@ -1,0 +1,63 @@
+root { 
+    display: block;
+}
+body{
+    font-size: 1.2em;
+}
+
+/* LISTページ */
+#list{
+    border: 1px solid #666;
+    font-size: 100%;
+}
+#list td {
+    border-top: 1px solid #666;
+}
+
+/* MENU */
+#menu td{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 170px;
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+    font-size: 20px;
+}
+#menu a{
+    color: #FFF;
+}
+#menu a:hover{
+    color: #f60;
+}
+#menu a:active{
+    color: #fff;
+}
+
+/* 詳細ページ */
+#select_one{
+    width:900px;
+}
+#select_one td{
+    border: 1px solid #555;
+}
+.ltitle{
+    width:200px;
+    text-align: left;
+    background-color: #ccc;
+    font-weight: bold;
+}
+.rtitle{
+    width:700px;
+    text-align: left;
+    background-color: #fff;
+}
+
+.c_btn{
+    text-align: center;
+}
+
+
+
+
+
